@@ -1,4 +1,40 @@
-h1{
-    font-size: 678px;
-    background-color: aqua;
+/*all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&family=Yeseva+One&display=swap');
+/*common style*/
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#sec1,#sec3{
+    display:flex;
+}
+/* section1 styles */
+#sec1firstdiv{
+    width: 582px;
+    height: 270px;
+}
+#sec1firstdiv h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+/* section2 styles */
+
+#sec2{
+    margin: 0 auto;
+    width: 1047px;
+    height:1662px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-gap: 30px 30px;
+}
+#sec2 div{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+#sec2 img{
+    width: 300px;
+    height: 256px;
 }
