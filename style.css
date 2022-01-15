@@ -68,17 +68,19 @@ body{
 #sec2{
     margin: 0 auto;
     width: 1047px;
-    height:1662px;
+    height:1450px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
-    grid-gap: 30px 30px;
+    grid-gap: 0px 30px;
+    margin-bottom: 50px;
 }
 #sec2 div{
     width: 300px;
-    height: 450px;
+    height: 418px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 20px 20px;
 }
 #sec2 img{
     width: 300px;
@@ -88,7 +90,7 @@ body{
     color: #18191F;
     font-weight: 500;
     font-size: 28px;
-    margin: 0px 0px 22px;
+    margin: 0px 0px 7px;
 }
 #sec2 p{
     font-family: 'Inter', sans-serif;
@@ -97,7 +99,6 @@ body{
 .price{
     font-weight: 400;
     font-size: 24px;
-    margin: 0 0 50px;
 }
 .description{
     font-weight: 700;
@@ -114,13 +115,16 @@ body{
     font-size: 14px;
     padding-left: 16px;
 }
-#seemore{
+.fa-arrow-right{
+    color: honeydew;
+}
+#seemore,#special{
     width: 150px;
     height: 24px;
     color: #E02C6D;
     font-weight: 700;
     font-size: 16px;
-    margin: 0px 0px 22px 1125px;
+    margin: 0px 0px 70px 1164px;
 
 }
 /* sec3 styles */
@@ -150,6 +154,7 @@ body{
     font-size: 16px;
     text-decoration: none;
     background-color: #E02C6D;
+    color:#FFFFFF;
 }
 #sec3 img{
     width:404px;
