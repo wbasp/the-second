@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Inter&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Inter&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Inter&family=Manrope:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300;700&family=Yeseva+One&display=swap');
 /*common style*/
 body{
     margin: 0;
@@ -112,4 +113,73 @@ body{
     font-weight: 700;
     font-size: 14px;
     padding-left: 16px;
+}
+#seemore{
+    width: 150px;
+    height: 24px;
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px 0px 22px 1125px;
+
+}
+/* sec3 styles */
+#sec3{
+    margin-bottom: 115px;
+}
+#sec3 h1{
+    width: 610px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 0;
+}
+#sec3 p{
+    width: 501px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+#sec3 a{
+    width: 155px;
+    height: 44px;
+    Padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #E02C6D;
+}
+#sec3 img{
+    width:404px;
+    height: 270px;
+    margin-left: 200px;
+    margin-right: 96px;
+}
+#sec3 .sec3secdiv{
+    width: 610px;
+    height: 224px;
+}
+/*footer style*/
+footer{
+    background-color: rgb(2, 0, 58);
+    text-align:center;
+    padding: 47px 0px;
+}
+footer h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.fab,.fa-globe{
+    font-size: 28px;
+    color:honeydew;
+    padding: 10px 10px;
 }
