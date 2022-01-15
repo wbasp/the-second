@@ -1,5 +1,7 @@
 /*all fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Inter&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Be+Vietnam+Pro:wght@200&family=Courgette&family=Inter&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Roboto:wght@300;700&family=Yeseva+One&display=swap');
 /*common style*/
 body{
     margin: 0;
@@ -53,16 +55,6 @@ body{
     margin: 40px 20px 42px 20px;
 }
 /* section2 styles */
-
-#sec2{
-    margin: 0 auto;
-    width: 1047px;
-    height:1662px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    grid-gap: 30px 30px;
-}
 #sec2heading{
     width: 262px;
     height: 70px;
@@ -71,6 +63,15 @@ body{
     text-align: center;
     font-weight: 600;
     font-size: 28px;
+}
+#sec2{
+    margin: 0 auto;
+    width: 1047px;
+    height:1662px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-gap: 30px 30px;
 }
 #sec2 div{
     width: 300px;
@@ -81,4 +82,34 @@ body{
 #sec2 img{
     width: 300px;
     height: 256px;
+}
+#sec2 h1{
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0px 0px 22px;
+}
+#sec2 p{
+    font-family: 'Inter', sans-serif;
+    margin: 0 0;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 50px;
+}
+.description{
+    font-weight: 700;
+    font-size: 14px;
+}
+.fas{
+    color: #FB8200;
+}
+.rating{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 16px;
 }
