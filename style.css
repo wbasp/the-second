@@ -223,55 +223,49 @@ footer p{
     padding: 10px 10px;
 }
 @media (max-width: 700px){
-    body{
-        width: 329px;
-    }
     header h1{
-        width: 162px;
-        height: 24px;
-        font-weight: 700;
-        font-size: 16px;
-        color: #3A3A3A;
+        width: 200px;
+        height: 44px;
+        font-size: 20px;
         text-align: center;
-        margin: 0px auto;
+        margin: 22px auto;
     }
     #sec1{
-        display:flex;
         flex-direction: column-reverse;
     }
     #sec1firstdiv{
         width: 404px;
         height: 222px;
+        margin: 0px;
+        padding: 0 auto;
     }
     #sec1firstdiv h1{
         width: 404px;
         height: 78px;
-        font-weight: 700;
         font-size: 28px;
-        color: #3A3A3A;
+        text-align: center;
     }
     #sec1firstdiv p{
         width: 321px;
         height: 65px;
-        font-weight: 600;
         font-size: 14px;
-        color: #3A3A3A;
+        text-align: center;
+        padding-left: 22px;
+    }
+    #sec1firstdiv a{
+        margin-left: 90px;
     }
     #sec1 img{
         width: 257px;
         height: 257px;
+        margin: 22px 0px 0px 55px;
     }
     #logosec{
-        width: 276px;
-        height: 62px;
-    }
-    #logosec img{
-        margin: 40px 20px 42px 20px;
+        display: none;
     }
     #sec2heading{
         width: 150px;
         height: 24px;
-        color:#3A3A3A;
         text-align: center;
         font-weight: 600;
         font-size: 16px;
@@ -279,66 +273,123 @@ footer p{
     #sec2{
         margin: 0 auto;
         width: 329px;
-        height:4504px;
+        height: 4300px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        justify-items: center;
-        grid-gap: 0px 30px;
+        align-items: center;
+        grid-gap: 0px 15px;
         margin-bottom: 50px;
     }
     #seemore{
-        width: 150px;
-        height: 24px;
-        color: #E02C6D;
-        font-weight: 700;
-        font-size: 16px;
-        margin: 0px 0px 0px 23px;
-        text-decoration: none;
+        margin-left: 340px;
     }
     #sec3{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
-        width: 329px;
-        height: 1200px;
+        width: 404px;
+        height: 1000px;
         border-radius: 20px;
-        box-shadow: -15px -15px 10px rgb(170, 96, 96);
+        box-shadow: 15px 15px 10px rgb(170, 96, 96);
+        padding: 20px;
     }
     #sec3 h1{
         width: 311px;
         height: 72px;
-        font-weight: 700;
         font-size: 24px;
-        color: #0A0826;
-        margin-bottom: 0;
-        margin-left: 2px;
+        margin: 0;
     }
     #sec3 p{
         width: 329px;
         height: 88px;
-        margin-left: 2px;
-        margin-top: 70px;
-        font-weight: 700;
-        font-size: 16px;
-        color: #6C6C6C;
+        margin: 0;
     }
     #sec3 a{
-        width: 155px;
-        height: 44px;
-        Padding: 10px 24px;
-        font-weight: 700;
-        font-size: 16px;
-        text-decoration: none;
-        background-color: #E02C6D;
-        color:#FFFFFF;
-        margin-left: 2px;
-        margin-top: 1px;
+        margin-left: 110px;
+        margin-top: 50px;
     }
     #sec3 img{
         width:404px;
         height: 270px;
-        margin-left: 2px;
-        margin-right: 3px;
         border-radius: 20px;
+        margin: 0px;
+    }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    header h1{
+        width: 315px;
+        height: 44px;
+        font-size: 32px;
+        text-align: center;
+        margin: 22px auto;
+    }
+    #sec1firstdiv{
+        width: 404px;
+        height: 222px;
+        margin: 0px;
+        padding: 0 auto;
+    }
+    #sec1firstdiv h1{
+        width: 360px;
+        height: 78px;
+        font-size: 32px;
+    }
+    #sec1firstdiv p{
+        width: 360px;
+        height: 65px;
+        font-size: 14px;
+    }
+    #sec1 img{
+        width: 257px;
+        height: 257px;
+        margin: 22px 0px 0px 55px;
+    }
+    #logosec{
+        display: none;
+    }
+    #sec2heading{
+        width: 500px;
+        height: 36px;
+        text-align: center;
+        font-size: 28px;
+    }
+    #sec2{
+        margin: 0 auto;
+        width: 120px;
+        height: 2360px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0px 15px;
+        margin-bottom: 25px;
+    }
+    #seemore{
+        margin-left: 700px;
+    }
+    #sec3{
+        grid-template-columns: repeat(2,1fr);
+        width: 900px;
+        height: 500px;
+        box-shadow: 15px 15px 10px rgb(170, 96, 96);
+    }
+    #sec3 h1{
+        width: 311px;
+        height: 72px;
+        font-size: 24px;
+        margin: 0;
+    }
+    #sec3 p{
+        width: 329px;
+        height: 88px;
+        margin: 0;
+    }
+    #sec3 a{
+        margin-left:180px;
+        margin-top: 50px;
+    }
+    #sec3 img{
+        width:400px;
+        height: 270px;
+        margin: 0px;
     }
 }
